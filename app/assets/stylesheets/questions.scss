@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Reggae+One&display=swap');
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$dark_red: #B10F2E;
+$hover_red: #cf1235;
+$background_color: #f8f1e6;
+$fonts_color: #27213C;
+$coach_answers: #F79D5C;
+
+body{
+  margin: 15px;
+  text-align: center;
+  background-color: $background_color;
+  font-family: 'Playfair Display', serif;
+  h1, h2{
+    font-family: 'Reggae One', cursive;
+  }
+  h2{
+    background-color: $coach_answers;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px $dark_red;
+  }
+  h1{
+    border: solid 5px $dark_red;
+  }
+  h4{
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    background-color: $dark_red;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+  }
+  h4:hover{
+    background-color: $hover_red;
+  }
+  a{
+    text-decoration: none;
+    color: $background_color;
+  }
+}
+
+.input-box {
+  border-radius: 5px;
+  border: solid 2px $dark_red;
+  height: 20px;
+  background-color: $background_color;
+}
+
+.button{
+  border-radius: 5px;
+  border: solid 2px $dark_red;
+  background-color: $dark_red;
+  color: $background_color;
+  width: 65px;
+  height: 26px;
+}
+
+.button:hover{
+  background-color: $hover_red;
+  border: solid 2px $coach_answers;
+}
